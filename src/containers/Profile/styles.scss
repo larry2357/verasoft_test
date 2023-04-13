@@ -1,0 +1,71 @@
+.topToolbar {
+    display: flex;
+    justify-content: space-between;
+    height: 73px;
+    border-bottom: 1px solid #333333;
+    margin-bottom: 6px;
+    position: relative;
+    &__icon {
+        line-height: 74px;
+        width: 25px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    &__ownerName {
+        position: absolute;
+        font-size: 25px;
+        line-height: 74px;
+        top: 0;
+        left: 60px;
+        font-weight: 600;
+    }
+    &__btnNew {
+        height: 40px;
+        margin-top: 16px;
+        padding: 10px 56px;
+        font-size: 18px;
+        color: #FCFEFF;
+        background-color: #404040;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        transition: all 200ms ease-in-out;
+        &:hover {
+            background-color: #EDF5FF;
+            color: #333333;
+            border: 1px solid #333333;
+        }
+    }
+}
+
+.profileContainer {
+    display: flex;
+    height: 125px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #D4D4D4;
+    margin-bottom: 2px;
+
+    &__avatar {
+        width: 97px;
+        background: #EDF5FF;
+        margin-right: 5px;
+    }
+
+    &__contact {
+        width: 239px;
+        margin-right: 5px;
+        background: #EDF5FF;
+        padding: 5px 9px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__communicationActivity {
+        flex: 1;
+        margin-right: 5px;
+    }
+
+    &__smsCarrierStatus {
+        width: 225px;
+    }
+}

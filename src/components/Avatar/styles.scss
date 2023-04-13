@@ -1,0 +1,30 @@
+.avatar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    &__img {
+        flex: 6;
+        margin: 21px 17px 12px 17px;
+        font-size: 72px;
+        color: #FFFFFF;
+    }
+
+    &__title {
+        flex: 2;
+        width: 100%;
+        font-size: 11px;
+        display: block;
+        color: #333333;
+        text-align: center;
+        line-height: 11px;
+    }
+
+    &__skeleton {
+        flex: 6;
+        margin: 21px 17px 10px 17px;
+    }
+}
